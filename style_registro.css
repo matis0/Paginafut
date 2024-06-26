@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(Fondo\ para\ Whatsapp\ de\ Fútbol\ Deportivo\ Ilustrado\ Verde.png);
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header.header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header.header p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px; /* Limitando el ancho de las secciones */
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.btn-inscripcion {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-inscripcion:hover {
+    background: #c70039;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer.footer {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Para que ocupe el ancho completo de la sección */
+    max-width: 400px; /* Limitando el ancho del formulario */
+    margin: 0 auto; /* Centrando el formulario */
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
